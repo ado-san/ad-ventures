@@ -1,6 +1,10 @@
 var proxy = require('http-proxy-middleware')
 
 module.exports = {
+  pathPrefix: "/ad-ventures",
+}
+
+module.exports = {
   siteMetadata: {
     title: 'Ad Ventures - Digital Solutions',
     description:
